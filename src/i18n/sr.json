@@ -10,5 +10,71 @@
     "description": "Razvijam pouzdana i moderna softverska rešenja fokusirana na čistu arhitekturu, performanse i odlično korisničko iskustvo.",
     "viewWork": "Pogledaj projekte",
     "contactMe": "Kontaktiraj me"
+  },
+"about": {
+    "title": "O meni",
+    "profileTitle": "Profesionalni profil",
+    "text1": "Softver developer sa više od 3 godine iskustva u razvoju, projektovanju i održavanju produkcionih softverskih rešenja. Specijalizovan za .NET / C# backend arhitekturu, REST API servise i rad sa Microsoft SQL Server bazama podataka putem Entity Framework Core ORM-a.",
+    "text2": "Posedujem bogato praktično iskustvo u razvoju web aplikacija u produkciji i komponentnoj frontend arhitekturi (React, Angular, TypeScript, JavaScript, HTML5, CSS3). Zahvaljujući čvrstim temeljima u React-u i modernom JavaScript/TypeScript ekosistemu, lako i brzo usvajam Vue.js framework.",
+    "text3": "Orijentisan na pouzdanost koda, optimizaciju performansi, analizu tehničkih zahteva i kreiranje stabilnih aplikacija za realne korisnike.",
+    "experienceTitle": "Profesionalno iskustvo",
+    "role": "Softverski inženjer (Full Stack)",
+    "company": "TrinitySmart IT – Novi Sad",
+    "experiencePeriod": "3+ godine radnog iskustva u produkciji",
+    "educationTitle": "Obrazovanje",
+    "degree": "Diplomirani hemičar",
+    "faculty": "Univerzitet u Novom Sadu – Prirodno-matematički fakultet (PMF)",
+    "trainingTitle": "Dodatno usavršavanje",
+    "skillsTitle": "Ključne tehnologije",
+    "experienceItems": [
+      "Razvoj backend i frontend aplikacija na produkcionim .NET sistemima",
+      "Implementacija REST API servisa, poslovne logike i optimizacija",
+      "Analiza zahteva, unapređenje rešenja i rad u Agile/Scrum timu"
+    ],
+    "trainingItems": [
+      ".NET Web API, WPF MVVM i SQL modelovanje baza",
+      "Angular, React i Vue.js frontend razvoj",
+      "Samostalno osmišljeni i implementirani celi sistemi"
+    ],
+    "skills": {
+      "backend": {
+        "title": "Backend i API razvoj",
+        "items": [
+          ".NET 5–9 (ASP.NET Core Web API)",
+          "REST API i HTTP protokol",
+          "Entity Framework / EF Core",
+          "SQL (MS SQL, PostgreSQL)",
+          "Repository i Unit of Work obrazac"
+        ]
+      },
+      "frontend": {
+        "title": "Frontend",
+        "items": [
+          "Vue.js",
+          "Angular i TypeScript",
+          "React (Hooks)",
+          "HTML5, CSS3, Bootstrap"
+        ]
+      },
+      "desktop": {
+        "title": "Desktop razvoj",
+        "items": [
+          "C#, WPF (MVVM), XAML",
+          "Data Binding i Commands",
+          "Asinhrono programiranje (async/await)",
+          "UI logika i state management"
+        ]
+      },
+      "tools": {
+        "title": "Alati i metodologije",
+        "items": [
+          "Git i Azure DevOps",
+          "Agile / Scrum",
+          "Principi čiste arhitekture",
+          "Rad na produkcionim sistemima"
+        ]
+      }
+    }
   }
+  
 }

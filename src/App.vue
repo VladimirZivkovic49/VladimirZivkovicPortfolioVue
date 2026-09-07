@@ -6,18 +6,21 @@
   </div> -->
  <NavbarComponent/>
 <HeroSectionComponent/>
+<AboutSectionComponent/>
 </template>
 
 <script >
 
 import NavbarComponent from './components/layout/Navbar.vue';
 import HeroSectionComponent from './components/sections/HeroSection.vue';
+import AboutSectionComponent from './components/sections/AboutSection.vue';
 export default{ 
  
     name: 'App',
     components: {
       NavbarComponent,
-      HeroSectionComponent
+      HeroSectionComponent,
+      AboutSectionComponent
     
   
   }

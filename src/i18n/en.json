@@ -9,7 +9,71 @@
     "description": "Building reliable and modern software solutions focused on clean architecture, performance, and great user experience.",
     "viewWork": "View Work",
     "contactMe": "Contact Me"
+  },
+"about": {
+    "title": "About Me",
+    "profileTitle": "Professional Profile",
+    "text1": "Software developer with over 3 years of experience in developing, designing, and maintaining production software solutions. Specialized in .NET / C# backend architecture, REST API services, and working with Microsoft SQL Server databases using Entity Framework Core ORM.",
+    "text2": "Strong hands-on experience in production web application development and component-based frontend architecture (React, Angular, TypeScript, JavaScript, HTML5, CSS3). Leveraging solid foundations in React and modern JavaScript/TypeScript ecosystem to efficiently adopt Vue.js framework.",
+    "text3": "Focused on code reliability, performance optimization, technical requirements analysis, and delivering stable software for real-world users.",
+    "experienceTitle": "Professional Experience",
+    "role": "Software Engineer (Full Stack)",
+    "company": "TrinitySmart IT – Novi Sad",
+    "experiencePeriod": "3+ years of production experience",
+    "educationTitle": "Education",
+    "degree": "Bachelor of Science in Chemistry",
+    "faculty": "University of Novi Sad – Faculty of Sciences (PMF)",
+    "trainingTitle": "Continuous Professional Development",
+    "skillsTitle": "Key Technologies",
+    "experienceItems": [
+      "Backend and frontend application development on production .NET systems",
+      "REST API services implementation, business logic, and optimization",
+      "Requirements analysis, solution enhancement, and Agile/Scrum teamwork"
+    ],
+    "trainingItems": [
+      ".NET Web API, WPF MVVM, and SQL database modeling",
+      "Angular, React, and Vue.js frontend development",
+      "Independently designed and implemented full-stack systems"
+    ],
+    "skills": {
+      "backend": {
+        "title": "Backend & API Development",
+        "items": [
+          ".NET 5–9 (ASP.NET Core Web API)",
+          "REST API & HTTP protocol",
+          "Entity Framework / EF Core",
+          "SQL (MS SQL, PostgreSQL)",
+          "Repository & Unit of Work pattern"
+        ]
+      },
+      "frontend": {
+        "title": "Frontend",
+        "items": [
+          "Vue.js",
+          "Angular & TypeScript",
+          "React (Hooks)",
+          "HTML5, CSS3, Bootstrap"
+        ]
+      },
+      "desktop": {
+        "title": "Desktop Development",
+        "items": [
+          "C#, WPF (MVVM), XAML",
+          "Data Binding & Commands",
+          "Asynchronous programming (async/await)",
+          "UI logic & state management"
+        ]
+      },
+      "tools": {
+        "title": "Tools & Methodologies",
+        "items": [
+          "Git & Azure DevOps",
+          "Agile / Scrum",
+          "Clean Architecture principles",
+          "Production system experience"
+        ]
+      }
+    }
   }
-
-
+ 
 }
