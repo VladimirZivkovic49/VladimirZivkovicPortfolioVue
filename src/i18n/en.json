@@ -4,5 +4,12 @@
     "about": "About",
     "projects": "Projects",
     "contact": "Contact"
+  },
+"hero": {
+    "description": "Building reliable and modern software solutions focused on clean architecture, performance, and great user experience.",
+    "viewWork": "View Work",
+    "contactMe": "Contact Me"
   }
+
+
 }

@@ -4,19 +4,20 @@
     App Component
     <NavbarComponent>
   </div> -->
- <NavbarComponent>
-
-</NavbarComponent>
+ <NavbarComponent/>
+<HeroSectionComponent/>
 </template>
 
 <script >
 
 import NavbarComponent from './components/layout/Navbar.vue';
+import HeroSectionComponent from './components/sections/HeroSection.vue';
 export default{ 
  
     name: 'App',
     components: {
       NavbarComponent,
+      HeroSectionComponent
     
   
   }
@@ -24,6 +25,20 @@ export default{
 
 </script>
 
- <style scoped> 
+ <!-- <style scoped> 
 
-</style> 
+</style>  -->
+
+<style >
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #2c3e50;
+}
+</style>
