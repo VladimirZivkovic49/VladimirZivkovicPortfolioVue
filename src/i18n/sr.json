@@ -4,5 +4,11 @@
     "about": "O meni",
     "projects": "Projekti",
     "contact": "Kontakt"
+  },
+
+  "hero": {
+    "description": "Razvijam pouzdana i moderna softverska rešenja fokusirana na čistu arhitekturu, performanse i odlično korisničko iskustvo.",
+    "viewWork": "Pogledaj projekte",
+    "contactMe": "Kontaktiraj me"
   }
 }
