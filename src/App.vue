@@ -4,23 +4,33 @@
     App Component
     <NavbarComponent>
   </div> -->
- <NavbarComponent/>
+ <!-- <NavbarComponent/>
 <HeroSectionComponent/>
-<AboutSectionComponent/>
+<AboutSectionComponent/> -->
+<div id="app">
+    <NavbarComponent />
+    <main>
+      <router-view />
+    </main>
+    <FooterComponent />
+  </div>
+
 </template>
 
 <script >
 
 import NavbarComponent from './components/layout/Navbar.vue';
-import HeroSectionComponent from './components/sections/HeroSection.vue';
-import AboutSectionComponent from './components/sections/AboutSection.vue';
+import FooterComponent from './components/layout/Footer.vue';
+//import HeroSectionComponent from './components/sections/HeroSection.vue';
+//import AboutSectionComponent from './components/sections/AboutSection.vue';
 export default{ 
  
     name: 'App',
     components: {
       NavbarComponent,
-      HeroSectionComponent,
-      AboutSectionComponent
+      FooterComponent
+    //  HeroSectionComponent,
+    //  AboutSectionComponent
     
   
   }
