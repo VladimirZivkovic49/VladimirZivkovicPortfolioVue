@@ -16,6 +16,7 @@
     "text1": "Software developer with over 3 years of experience in developing, designing, and maintaining production software solutions. Specialized in .NET / C# backend architecture, REST API services, and working with Microsoft SQL Server databases using Entity Framework Core ORM.",
     "text2": "Strong hands-on experience in production web application development and component-based frontend architecture (React, Angular, TypeScript, JavaScript, HTML5, CSS3). Leveraging solid foundations in React and modern JavaScript/TypeScript ecosystem to efficiently adopt Vue.js framework.",
     "text3": "Focused on code reliability, performance optimization, technical requirements analysis, and delivering stable software for real-world users.",
+   "text4":"Long-standing work experience in the multinational company LafargeHolcim in the roles of Process Engineer and Process Manager.",
     "experienceTitle": "Professional Experience",
     "role": "Software Engineer (Full Stack)",
     "company": "TrinitySmart IT – Novi Sad",
@@ -74,6 +75,127 @@
         ]
       }
     }
+  },
+  "projects": {
+    "title": "Selected Projects",
+    "subtitle": "Overview of production, engineering, and personal projects",
+    "filterAll": "All Projects",
+    
+      "backBtn": "Back to Projects",
+  "overview": "Project Overview",
+  "technologiesTitle": "Technologies Used",
+  "videoSectionTitle": "Key Processes Demonstration",
+    "categories": {
+      "web": "Web & Backend",
+      "desktop": "Desktop Apps"
+
+    },
+    "detailsBtn": "View Details",
+    "modalClose": "Close",
+    "links": {
+      "live": "Visit Website",
+      "code": "Project Link - Git"
+    },
+    "items": [
+      {
+        "id": "pizb",
+        "image": "PisProjecat.jpg",
+        "category": "web",
+        "type": "Production (TrinitySmart IT)",
+        "title": "Plant Protection Forecasting & Reporting System",
+        "fullDescription": "Full-stack system for agricultural data analysis, forecasting, and reporting based on .NET Web API and Angular.",
+        "shortDescription": "Full-stack system for agricultural data analysis and forecasting with a large relational database.",
+        "technologies": [".NET Web API", "Angular", "SQL Server", "C#"],
+        "link": "https://pissrbija.rs/pocetna"
+       
+      },
+      {
+        "id": "funtime",
+         "image": "Playroom.jpg",
+        "category": "web",
+        "type": "Production (TrinitySmart IT)",
+        "title": "Fun Time – Ticketing & Access Control System",
+        "shortDescription": "Ticketing and real-time access control system with QR validation deployed in production.",
+        "fullDescription": "Production system used at TC Promenada (Novi Sad). Features ticket sales tracking, user statistics, and turnstile access control based on real-time QR code validation.",
+        "technologies": [".NET Core", "Angular", "QR Code Validation", "SQL"]
+       
+      },
+      {
+        "id": "panagent",
+         "image": "Panagent.jpg",
+        "category": "web",
+        "type": "In Development (TrinitySmart IT)",
+        "title": "Panagent – Agricultural Online Platform",
+        "shortDescription": "A comprehensive digital platform connecting agricultural producers, businesses, and end consumers.",
+        "fullDescription": "Platform connecting agricultural supply and demand, focused on scalable backend architecture and high performance.",
+        "technologies": [".NET Web API", "Angular", "PostgreSQL", "C#"]
+       
+      },
+      {
+        "id": "fanefficiency",
+        "category": "web",
+         "image": "FanEfficiancy.jpg",
+          "hasVideo": true,
+        "featuredBadge": "🎬 Video Demo",
+         "videos": [
+        {
+         "title": "Diagram calibration",
+         "src": "/videos/FanEfficiansyCalibration.mp4"
+        },
+         {
+         "title": "Diagram fitting",
+         "src": "/videos/FanEfficiencyFitting.mp4"
+        },
+          {
+         "title": "Report generation ",
+         "src": "/videos/FanEfficiansyReportGeneration.mp4"
+        },
+         {
+         "title": "Detailed report overview and PDF generation ",
+         "src": "/videos/FanEfficiansyReportOverviewAndPdf.mp4"
+        }
+    
+  ],
+         "type": "Personal Project / Extension",
+        "title": "Fan Efficiency Tool",
+        "shortDescription": "App for digitizing fan efficiency charts, data analysis, and PDF report generation.",
+        "fullDescription": "Advanced expansion of a self-built tool. Features RBAC authentication, Cloudinary integration for image processing during chart digitization, PDF generation, and parallel WPF + React implementations.",
+       "technologies": ["C#",".NET 9 Web API", "WPF (MVVM)", "React (Hooks)", "Cloudinary API", "PDF Gen","SQL Server", "SQLite"]
+       
+        
+      },
+      {
+        "id": "agroveles",
+        "image": "Agroveles.jpg",
+        "category": "desktop",
+        "type": "Production (TrinitySmart IT)",
+        "title": "Agroveles – Engineering Desktop App",
+        "shortDescription": "Engineering tool for calculating optimal fertilizer strategies and soil treatment.",
+        "fullDescription": "WPF desktop software for engineers and agronomists, implementing MVVM pattern, numerical algorithms, and domain logic for soil fertilization strategy.",
+        "technologies": ["C#", "WPF", "MVVM", "Entity Framework", "SQL"]
+       
+      },
+      {
+        "id": "scada",
+        "image": "PidGctProject.jpg",
+         "hasVideo": true,
+        "featuredBadge": "🎬 Video Demo",
+         "videos": [
+        {
+         "title": "SCADA simulation - start and controling overview",
+         "src": "/videos/MainWindowScada.mp4"
+        }
+      ],
+        "category": "desktop",
+        "type": "Personal Project",
+        "title": "SCADA Simulation Control Panel",
+        "shortDescription": "Industrial SCADA UI simulation for real-time system state monitoring and control.",
+        "fullDescription": "Industrial control panel mimicking real-time SCADA behavior. Focused on UI synchronization with backend logic and asynchronous data handling.",
+        "technologies": ["C#", "WPF (MVVM)", "Real-Time State Management", "Git"],
+        "github": "https://github.com/VladimirZivkovic49/GCT_Realese_app"
+        
+      }
+    ]
   }
  
 }

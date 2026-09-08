@@ -17,6 +17,9 @@
     "text1": "Softver developer sa više od 3 godine iskustva u razvoju, projektovanju i održavanju produkcionih softverskih rešenja. Specijalizovan za .NET / C# backend arhitekturu, REST API servise i rad sa Microsoft SQL Server bazama podataka putem Entity Framework Core ORM-a.",
     "text2": "Posedujem bogato praktično iskustvo u razvoju web aplikacija u produkciji i komponentnoj frontend arhitekturi (React, Angular, TypeScript, JavaScript, HTML5, CSS3). Zahvaljujući čvrstim temeljima u React-u i modernom JavaScript/TypeScript ekosistemu, lako i brzo usvajam Vue.js framework.",
     "text3": "Orijentisan na pouzdanost koda, optimizaciju performansi, analizu tehničkih zahteva i kreiranje stabilnih aplikacija za realne korisnike.",
+    "text4": "Dugogodišnje radno iskustvo u multinacionalnoj kompaniji LafargeHolcim na pozicijama Proces inženjer/Proces menadžer",
+    
+    
     "experienceTitle": "Profesionalno iskustvo",
     "role": "Softverski inženjer (Full Stack)",
     "company": "TrinitySmart IT – Novi Sad",
@@ -75,6 +78,131 @@
         ]
       }
     }
+  },
+  "projects": {
+    "title": "Izabrani projekti",
+    "subtitle": "Pregled produkcionih, inženjerskih i ličnih projekata",
+    "filterAll": "Svi projekti",
+ "backBtn": "Nazad na projekte",
+  "overview": "Opis projekta",
+  "technologiesTitle": "Korišćene tehnologije",
+  "videoSectionTitle": "Demonstracija ključnih procesa",
+  
+
+    "categories": {
+      "web": "Web & Backend",
+      "desktop": "Desktop aplikacije"
+
+     
+    },
+    "detailsBtn": "Pogledaj detalje",
+    "modalClose": "Zatvori",
+    "links": {
+      "live": "Poseti sajt",
+      "code": "Projekat Link - Git"
+    },
+    "items": [
+      {
+        "id": "pizb",
+        "image": "PisProjecat.jpg",
+        "category": "web",
+        "type": "Produkcija (TrinitySmart IT)",
+        "title": "Prognozno-izveštajna služba zaštite bilja",
+        "shortDescription": "Full-stack sistem za analizu, izveštavanje i prognozu u poljoprivredi sa velikom bazom podataka.",
+        "fullDescription": "Sistem služi za analizu i izveštavanje podataka u poljoprivredi. Backend je razvijen kao .NET Web API sa kompleksnom poslovnom logikom i optimizovanim upitima nad relacijskom bazom, dok je frontend realizovan u Angular-u sa fokusom na preglednost podataka.",
+        "technologies": [".NET Web API", "Angular", "SQL Server", "C#"],
+        "link": "https://pissrbija.rs/pocetna"
+       
+      },
+      {
+        "id": "funtime",
+        "image": "Playroom.jpg",
+        "category": "web",
+        "type": "Produkcija (TrinitySmart IT)",
+        "title": "Fun Time – Sistem za prodaju i evidenciju karata",
+        "shortDescription": "Sistem za upravljanje kartama, korisnicima i kontrolom pristupa sa QR kod validacijom.",
+        "fullDescription": "Produkcioni sistem implementiran u TC Promenada (Novi Sad). Obuhvata evidenciju prodaje karata, korisničku statistiku i automatsku kontrolu pristupa (ulaz/izlaz) baziranu na fizickim kapijama i QR kod validaciji u realnom vremenu.",
+        "technologies": [".NET Core", "Angular", "QR Code Validation", "SQL"]
+       
+      },
+      {
+        "id": "panagent",
+        "image": "Panagent.jpg",
+        "category": "web",
+        "type": "U razvoju (TrinitySmart IT)",
+        "title": "Panagent – Online poljoprivredna platforma",
+        "shortDescription": "Sveobuhvatna digitalna platforma za povezivanje poljoprivrednih proizvođača, privrednih subjekata i krajnjih kupaca.”",
+        "fullDescription": "Sistem dizajniran za spajanje aktera u poljoprivredi. Poseban fokus stavljen je na skalabilnu backend arhitekturu, visoke performanse i moderan korisnički interfejs.",
+        "technologies": [".NET Web API", "Angular", "PostgreSQL", "C#"]
+        
+      },
+      {
+        "id": "fanefficiency",
+         "image": "FanEfficiancy.jpg",
+         "hasVideo": true,
+        "featuredBadge": "🎬 Video Demo",
+       "videos": [
+        {
+         "title": "Kalibracija dijagrama",
+         "src": "/videos/FanEfficiansyCalibration.mp4"
+        },
+         {
+         "title": "Fitting dijagrama",
+         "src": "/videos/FanEfficiencyFitting.mp4"
+        },
+         {
+         "title": "Kreiranje izveštaja  ",
+         "src": "/videos/FanEfficiansyReportGeneration.mp4"
+        },
+     {
+         "title": "Detaljan pregled izveštaja i generisanje PDF  ",
+         "src": "/videos/FanEfficiansyReportOverviewAndPdf.mp4"
+        }
+  ],
+       
+       
+       
+        "category": "web",
+        "type": "Lični projekat / Proširenje",
+        "title": "Fan Efficiency Tool",
+        "shortDescription": "Aplikacija za digitalizaciju dijagrama, analizu efikasnosti ventilatora i generisanje PDF izveštaja.",
+        "fullDescription": "Napredna optimizacija i nadogradnja samostalnog projekta. Sadrži kompletnu autentifikaciju sa RBAC (Role-Based Access Control) logikom, Cloudinary integraciju za skladištenje i obradu slika pri digitalizaciji dijagrama, generisanje PDF izveštaja i paralelnu WPF i React implementaciju.",
+        "technologies": ["C#",".NET 9 Web API", "WPF (MVVM)", "React (Hooks)", "Cloudinary API", "PDF Gen","SQL Server", "SQLite"]
+       
+      },
+      {
+        "id": "agroveles",
+         "image": "Agroveles.jpg",
+        "category": "desktop",
+        "type": "Produkcija (TrinitySmart IT)",
+        "title": "Agroveles – Desktop inženjerska aplikacija",
+        "shortDescription": "Inženjerski alat za izračunavanje optimalnih strategija prihrane đubrivima.",
+        "fullDescription": "WPF desktop aplikacija namenjena agronomima i inženjerima za precizne numeričke proračune i preporuke za tretman zemljišta. Implementirana je čista MVVM arhitektura za razdvajanje UI-a od domenske logike, uz prateću tehničku dokumentaciju.",
+        "technologies": ["C#", "WPF", "MVVM", "Entity Framework", "SQL"]      
+      },
+      {
+        "id": "scada",
+        "category": "desktop",
+         "image": "PidGctProject.jpg",
+         "hasVideo": true,
+        "featuredBadge": "🎬 Video Demo",
+
+         "videos": [
+        {
+         "title": "SCADA siimulacija - start i prikaz regulacije",
+         "src": "/videos/MainWindowScada.mp4"
+        }
+      ],
+        "type": "Lični projekat",
+        "title": "SCADA simulacioni kontrolni panel",
+        "shortDescription": "Simulacija industrijskog SCADA UI interfejsa za upravljanje stanjem u realnom vremenu.",
+        "fullDescription": "Industrijski kontrolni panel koji simulira rad realnog SCADA sistema. Fokus je stavljen na sinhronizaciju korisničkog interfejsa sa stanjima u backend logici i asinhronu obradu podataka.",
+        "technologies": ["C#", "WPF(MVVM)", "Real-Time State Management", "Git"],
+        "github": "https://github.com/VladimirZivkovic49/GCT_Realese_app"
+        
+      }
+    ]
   }
+  
   
 }

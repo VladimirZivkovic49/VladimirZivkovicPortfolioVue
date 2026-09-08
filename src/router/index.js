@@ -4,6 +4,8 @@ import AboutView from '../views/AboutView.vue'
 import ProjectsView from '../views/ProjectsView.vue'
 import ContactView from '../views/ContactView.vue'
 
+import ProjectDetailView from '../views/ProjectDetailView.vue'
+
 const routes = [
   {
     path: '/',
@@ -21,6 +23,17 @@ const routes = [
     name: 'Projects',
     component: ProjectsView
   },
+
+  {
+    path: '/projects/:id',
+    name: 'project-detail',
+    component: ProjectDetailView,
+    props: true // Omogućava da se parametar :id direktno prosledi kao prop u ProjectDetailView
+  },
+
+
+
+
   {
     path: '/contact',
     name: 'Contact',
