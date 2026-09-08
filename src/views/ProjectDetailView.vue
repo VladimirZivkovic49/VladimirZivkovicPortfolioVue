@@ -42,6 +42,32 @@
       <h2>Projekat nije pronađen</h2>
       <router-link to="/projects" :class="$style.backBtn">&larr; Nazad na projekte</router-link>
     </div>
+<!-- video -->
+<div v-if="project.videos && project.videos.length" :class="$style.videoSegment">
+          <!-- <h2>Demonstracija ključnih procesa</h2> -->
+          <h2>{{ $t('projects.videoSectionTitle') }}</h2>
+          <div :class="$style.videosList">
+            <div 
+              v-for="(vid, idx) in project.videos" 
+              :key="idx" 
+              :class="$style.videoCard"
+            >
+              <h3 :class="$style.videoTitle">{{ vid.title }}</h3>
+              <div :class="$style.videoWrapper">
+                <video controls preload="metadata" :class="$style.demoVideo">
+                  <source :src="getVideoUrl(vid.src)" type="video/mp4" />
+                  Vaš pregledač ne podržava prikaz videa.
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+<!-- video -->
+
+
+
   </div>
 </template>
 
@@ -59,7 +85,18 @@
     getImageUrl(imageName) {
       if (!imageName) return ''
       return new URL(`../assets/${imageName}`, import.meta.url).href
-    }
+    },
+//getVideoUrl(videoPath) {
+     // if (!videoPath) return ''
+      //return new URL(`../assets/${videoPath}`, import.meta.url).href
+     // return new URL(`../assets/videos/${fileName}`, import.meta.url).href
+//}
+getVideoUrl(videoPath) {
+  if (!videoPath) return ''
+  return videoPath
+}
+
+
   }
         
     }
@@ -182,4 +219,63 @@
   text-align: center;
   padding: 4rem 1rem;
 }
+
+
+/* style video */
+.videoSegment {
+  margin: 2.5rem 0;
+  padding: 1.5rem;
+  background-color: #f8fafc;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.videoSegment h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #0f172a;
+}
+
+/* Lista video kartica (sve jedna ispod druge) */
+.videosList {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Pojedinačna kartica sa videom */
+.videoCard {
+  background-color: #ffffff;
+  padding: 1.25rem;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.videoTitle {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 0.85rem;
+  color: #1e293b;
+}
+
+.videoWrapper {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.demoVideo {
+  width: 100%;
+  max-height: 480px;
+  display: block;
+  object-fit: contain;
+}
+
+/* style video  */
+
+
+
+
 </style>

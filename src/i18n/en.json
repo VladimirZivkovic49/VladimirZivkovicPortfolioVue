@@ -83,6 +83,7 @@
       "backBtn": "Back to Projects",
   "overview": "Project Overview",
   "technologiesTitle": "Technologies Used",
+  "videoSectionTitle": "Key Processes Demonstration",
     "categories": {
       "web": "Web & Backend",
       "desktop": "Desktop Apps"
@@ -133,6 +134,25 @@
         "id": "fanefficiency",
         "category": "web",
          "image": "FanEfficiancy.jpg",
+         "videos": [
+        {
+         "title": "Diagram calibration",
+         "src": "/videos/FanEfficiansyCalibration.mp4"
+        },
+         {
+         "title": "Diagram fitting",
+         "src": "/videos/FanEfficiencyFitting.mp4"
+        },
+          {
+         "title": "Report generation ",
+         "src": "/videos/FanEfficiansyReportGeneration.mp4"
+        },
+         {
+         "title": "Detailed report overview and PDF generation ",
+         "src": "/videos/FanEfficiansyReportOverviewAndPdf.mp4"
+        }
+    
+  ],
          "type": "Personal Project / Extension",
         "title": "Fan Efficiency Tool",
         "shortDescription": "App for digitizing fan efficiency charts, data analysis, and PDF report generation.",
@@ -154,6 +174,12 @@
       {
         "id": "scada",
         "image": "PidGctProject.jpg",
+         "videos": [
+        {
+         "title": "SCADA simulation - start and controling overview",
+         "src": "/videos/MainWindowScada.mp4"
+        }
+      ],
         "category": "desktop",
         "type": "Personal Project",
         "title": "SCADA Simulation Control Panel",

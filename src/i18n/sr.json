@@ -83,6 +83,7 @@
  "backBtn": "Nazad na projekte",
   "overview": "Opis projekta",
   "technologiesTitle": "Korišćene tehnologije",
+  "videoSectionTitle": "Demonstracija ključnih procesa",
 
     "categories": {
       "web": "Web & Backend",
@@ -106,7 +107,7 @@
         "shortDescription": "Full-stack sistem za analizu, izveštavanje i prognozu u poljoprivredi sa velikom bazom podataka.",
         "fullDescription": "Sistem služi za analizu i izveštavanje podataka u poljoprivredi. Backend je razvijen kao .NET Web API sa kompleksnom poslovnom logikom i optimizovanim upitima nad relacijskom bazom, dok je frontend realizovan u Angular-u sa fokusom na preglednost podataka.",
         "technologies": [".NET Web API", "Angular", "SQL Server", "C#"],
-        "link": "http://www.pizb.rs"
+        "link": "https://pissrbija.rs/pocetna"
        
       },
       {
@@ -134,6 +135,27 @@
       {
         "id": "fanefficiency",
          "image": "FanEfficiancy.jpg",
+       "videos": [
+        {
+         "title": "Kalibracija dijagrama",
+         "src": "/videos/FanEfficiansyCalibration.mp4"
+        },
+         {
+         "title": "Fitting dijagrama",
+         "src": "/videos/FanEfficiencyFitting.mp4"
+        },
+         {
+         "title": "Kreiranje izveštaja  ",
+         "src": "/videos/FanEfficiansyReportGeneration.mp4"
+        },
+     {
+         "title": "Detaljan pregled izveštaja i generisanje PDF  ",
+         "src": "/videos/FanEfficiansyReportOverviewAndPdf.mp4"
+        }
+  ],
+       
+       
+       
         "category": "web",
         "type": "Lični projekat / Proširenje",
         "title": "Fan Efficiency Tool",
@@ -156,6 +178,12 @@
         "id": "scada",
         "category": "desktop",
          "image": "PidGctProject.jpg",
+         "videos": [
+        {
+         "title": "SCADA siimulacija - start i prikaz regulacije",
+         "src": "/videos/MainWindowScada.mp4"
+        }
+      ],
         "type": "Lični projekat",
         "title": "SCADA simulacioni kontrolni panel",
         "shortDescription": "Simulacija industrijskog SCADA UI interfejsa za upravljanje stanjem u realnom vremenu.",
