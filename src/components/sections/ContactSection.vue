@@ -1,8 +1,4 @@
-<!-- <template>
-    <div>
-<h2>Contact Section</h2>
-    </div>
-</template> -->
+
 <template>
   <div :class="$style.contactContainer">
     <!-- Naslovna sekcija -->
@@ -81,23 +77,13 @@
     </div>
   </div>
 </template>
-<!-- <script>
-    export default {
-        name:'ContactSectionComponent'
-    }
-</script> -->
+
 <script>
  export default {
     name:'ContactComponent',
-   
-
-        
+           
     }
 </script>
-
-<!-- <style scoped>
-
-</style> -->
 
 <style module>
 .contactContainer {

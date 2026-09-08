@@ -28,9 +28,7 @@
     }
 </script>
 
-<!-- <style scoped>
 
-</style> -->
 <style module>
 .hero {
   min-height: calc(100vh - 70px);

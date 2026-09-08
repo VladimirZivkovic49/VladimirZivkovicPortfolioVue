@@ -43,9 +43,6 @@ export default {
 }
 </script>
 
-<!-- <style scoped>
-
-</style> -->
 
 <style module>
 .footer {
