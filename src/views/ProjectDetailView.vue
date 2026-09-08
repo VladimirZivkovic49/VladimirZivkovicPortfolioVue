@@ -86,11 +86,7 @@
       if (!imageName) return ''
       return new URL(`../assets/${imageName}`, import.meta.url).href
     },
-//getVideoUrl(videoPath) {
-     // if (!videoPath) return ''
-      //return new URL(`../assets/${videoPath}`, import.meta.url).href
-     // return new URL(`../assets/videos/${fileName}`, import.meta.url).href
-//}
+
 getVideoUrl(videoPath) {
   if (!videoPath) return ''
   return videoPath

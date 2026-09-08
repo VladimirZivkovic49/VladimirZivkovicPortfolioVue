@@ -166,7 +166,7 @@
         "type": "Lični projekat / Proširenje",
         "title": "Fan Efficiency Tool",
         "shortDescription": "Aplikacija za digitalizaciju dijagrama, analizu efikasnosti ventilatora i generisanje PDF izveštaja.",
-        "fullDescription": "Napredna optimizacija i nadogradnja samostalnog projekta. Sadrži kompletnu autentifikaciju sa RBAC (Role-Based Access Control) logikom, Cloudinary integraciju za skladištenje i obradu slika pri digitalizaciji dijagrama, generisanje PDF izveštaja i paralelnu WPF i React implementaciju.",
+        "fullDescription": "Napredna optimizacija i nadogradnja samostalnog projekta. Sadrži kompletnu autentifikaciju sa RBAC (Role-Based Access Control) logikom, Cloudinary integraciju za skladištenje i obradu slika pri digitalizaciji dijagrama, generisanje PDF izveštaja i paralelnu WPF i React implementaciju, podržanu zajedničkim serverom. Unapređeno korisničko iskustvo.",
         "technologies": ["C#",".NET 9 Web API", "WPF (MVVM)", "React (Hooks)", "Cloudinary API", "PDF Gen","SQL Server", "SQLite"]
        
       },
@@ -202,7 +202,29 @@
         
       }
     ]
+  },
+ "contact": {
+  "title": "Kontakt",
+  "subtitle": "Otvoren za saradnju, projekte i poslovne prilike. Slobodno me kontaktirajte!",
+  "labels": {
+    "fullName": "Ime i prezime",
+    "email": "Email adresa",
+    "phone": "Telefon",
+    "location": "Lokacija"
+  },
+  "info": {
+    "name": "Vladimir Živković",
+   "email": "vlaja432{'@'}gmail.com",
+    "phone": "+381 63 627029",
+    "location": "Novi Sad, Srbija",
+    "workMode": "(Remote / Hybrid / On-site)"
+  },
+  "socialTitle": "Profesionalni profili",
+  "social": {
+   "linkedin": "https://www.linkedin.com/in/%C5%BEivkovi%C4%87-vladimir-7319702b",
+    "github": "https://github.com/VladimirZivkovic49"
   }
+}
   
   
 }

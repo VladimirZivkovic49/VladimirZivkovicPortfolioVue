@@ -21,16 +21,14 @@
 
 import NavbarComponent from './components/layout/Navbar.vue';
 import FooterComponent from './components/layout/Footer.vue';
-//import HeroSectionComponent from './components/sections/HeroSection.vue';
-//import AboutSectionComponent from './components/sections/AboutSection.vue';
+
 export default{ 
  
     name: 'App',
     components: {
       NavbarComponent,
       FooterComponent
-    //  HeroSectionComponent,
-    //  AboutSectionComponent
+    
     
   
   }
@@ -38,9 +36,7 @@ export default{
 
 </script>
 
- <!-- <style scoped> 
 
-</style>  -->
 
 <style >
 * {

@@ -28,9 +28,7 @@
     }
 </script>
 
-<!-- <style scoped>
 
-</style> -->
 <style module>
 .hero {
   min-height: calc(100vh - 70px);
@@ -54,6 +52,7 @@
 }
 
 .subtitle {
+  margin-top: 1rem;
   font-size: 1.5rem;
   font-weight: 600;
   color: #42b883;
