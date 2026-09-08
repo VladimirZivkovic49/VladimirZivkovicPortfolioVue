@@ -34,11 +34,18 @@
           :class="$style.card"
         >
           <!-- Header kartice -->
+         <!-- badge -->
+          <div :class="$style.cardHeader">
+         <span v-if="project.hasVideo" :class="$style.videoBadge">
+             🎬 Video Demo
+           </span> 
+          </div>
+          <!-- badge -->
           <div :class="$style.cardHeader">
             <span :class="$style.badge">{{ project.type }}</span>
             <h3 :class="$style.cardTitle">{{ project.title }}</h3>
           </div>
-
+          
           <!-- Body kartice (Slika + Opis) -->
           <div :class="$style.cardBody">
             <div :class="$style.imageWrapper">
@@ -63,6 +70,7 @@
             </router-link>
           </div>
         </div>
+        
       </div>
     </div>
   </section>
@@ -272,6 +280,19 @@ export default {
 .detailsBtn:hover {
   background: #42b883;
 }
+.videoBadge {
+  background-color: #ef4444; 
+  color: white;             
+  padding: 0.25rem 0.6rem;   
+  border-radius: 20px;       
+  font-size: 0.75rem;        
+  font-weight: 700;         
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;               
+  box-shadow: 0 2px 4px rgba(239, 68, 68, 0.3); /* Blaga crvena senka */
+}
+
 
 @media (max-width: 640px) {
   .grid {

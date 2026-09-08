@@ -17,6 +17,9 @@
     "text1": "Softver developer sa više od 3 godine iskustva u razvoju, projektovanju i održavanju produkcionih softverskih rešenja. Specijalizovan za .NET / C# backend arhitekturu, REST API servise i rad sa Microsoft SQL Server bazama podataka putem Entity Framework Core ORM-a.",
     "text2": "Posedujem bogato praktično iskustvo u razvoju web aplikacija u produkciji i komponentnoj frontend arhitekturi (React, Angular, TypeScript, JavaScript, HTML5, CSS3). Zahvaljujući čvrstim temeljima u React-u i modernom JavaScript/TypeScript ekosistemu, lako i brzo usvajam Vue.js framework.",
     "text3": "Orijentisan na pouzdanost koda, optimizaciju performansi, analizu tehničkih zahteva i kreiranje stabilnih aplikacija za realne korisnike.",
+    "text4": "Dugogodišnje radno iskustvo u multinacionalnoj kompaniji LafargeHolcim na pozicijama Proces inženjer/Proces menadžer",
+    
+    
     "experienceTitle": "Profesionalno iskustvo",
     "role": "Softverski inženjer (Full Stack)",
     "company": "TrinitySmart IT – Novi Sad",
@@ -84,6 +87,7 @@
   "overview": "Opis projekta",
   "technologiesTitle": "Korišćene tehnologije",
   "videoSectionTitle": "Demonstracija ključnih procesa",
+  
 
     "categories": {
       "web": "Web & Backend",
@@ -95,7 +99,7 @@
     "modalClose": "Zatvori",
     "links": {
       "live": "Poseti sajt",
-      "code": "Izvorni kod"
+      "code": "Projekat Link - Git"
     },
     "items": [
       {
@@ -135,6 +139,8 @@
       {
         "id": "fanefficiency",
          "image": "FanEfficiancy.jpg",
+         "hasVideo": true,
+        "featuredBadge": "🎬 Video Demo",
        "videos": [
         {
          "title": "Kalibracija dijagrama",
@@ -178,6 +184,9 @@
         "id": "scada",
         "category": "desktop",
          "image": "PidGctProject.jpg",
+         "hasVideo": true,
+        "featuredBadge": "🎬 Video Demo",
+
          "videos": [
         {
          "title": "SCADA siimulacija - start i prikaz regulacije",
@@ -188,7 +197,7 @@
         "title": "SCADA simulacioni kontrolni panel",
         "shortDescription": "Simulacija industrijskog SCADA UI interfejsa za upravljanje stanjem u realnom vremenu.",
         "fullDescription": "Industrijski kontrolni panel koji simulira rad realnog SCADA sistema. Fokus je stavljen na sinhronizaciju korisničkog interfejsa sa stanjima u backend logici i asinhronu obradu podataka.",
-        "technologies": ["C#", "WPF", "Real-Time State Management", "Git"],
+        "technologies": ["C#", "WPF(MVVM)", "Real-Time State Management", "Git"],
         "github": "https://github.com/VladimirZivkovic49/GCT_Realese_app"
         
       }

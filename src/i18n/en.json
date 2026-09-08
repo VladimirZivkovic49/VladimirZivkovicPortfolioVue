@@ -16,6 +16,7 @@
     "text1": "Software developer with over 3 years of experience in developing, designing, and maintaining production software solutions. Specialized in .NET / C# backend architecture, REST API services, and working with Microsoft SQL Server databases using Entity Framework Core ORM.",
     "text2": "Strong hands-on experience in production web application development and component-based frontend architecture (React, Angular, TypeScript, JavaScript, HTML5, CSS3). Leveraging solid foundations in React and modern JavaScript/TypeScript ecosystem to efficiently adopt Vue.js framework.",
     "text3": "Focused on code reliability, performance optimization, technical requirements analysis, and delivering stable software for real-world users.",
+   "text4":"Long-standing work experience in the multinational company LafargeHolcim in the roles of Process Engineer and Process Manager.",
     "experienceTitle": "Professional Experience",
     "role": "Software Engineer (Full Stack)",
     "company": "TrinitySmart IT – Novi Sad",
@@ -93,7 +94,7 @@
     "modalClose": "Close",
     "links": {
       "live": "Visit Website",
-      "code": "Source Code"
+      "code": "Project Link - Git"
     },
     "items": [
       {
@@ -105,7 +106,7 @@
         "fullDescription": "Full-stack system for agricultural data analysis, forecasting, and reporting based on .NET Web API and Angular.",
         "shortDescription": "Full-stack system for agricultural data analysis and forecasting with a large relational database.",
         "technologies": [".NET Web API", "Angular", "SQL Server", "C#"],
-        "link": "http://www.pizb.rs"
+        "link": "https://pissrbija.rs/pocetna"
        
       },
       {
@@ -134,6 +135,8 @@
         "id": "fanefficiency",
         "category": "web",
          "image": "FanEfficiancy.jpg",
+          "hasVideo": true,
+        "featuredBadge": "🎬 Video Demo",
          "videos": [
         {
          "title": "Diagram calibration",
@@ -175,6 +178,8 @@
       {
         "id": "scada",
         "image": "PidGctProject.jpg",
+         "hasVideo": true,
+        "featuredBadge": "🎬 Video Demo",
          "videos": [
         {
          "title": "SCADA simulation - start and controling overview",
@@ -186,7 +191,7 @@
         "title": "SCADA Simulation Control Panel",
         "shortDescription": "Industrial SCADA UI simulation for real-time system state monitoring and control.",
         "fullDescription": "Industrial control panel mimicking real-time SCADA behavior. Focused on UI synchronization with backend logic and asynchronous data handling.",
-        "technologies": ["C#", "WPF", "Real-Time State Management", "Git"],
+        "technologies": ["C#", "WPF (MVVM)", "Real-Time State Management", "Git"],
         "github": "https://github.com/VladimirZivkovic49/GCT_Realese_app"
         
       }

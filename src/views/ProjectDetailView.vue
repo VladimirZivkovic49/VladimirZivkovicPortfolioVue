@@ -102,9 +102,7 @@ getVideoUrl(videoPath) {
     }
 </script>
 
-<!-- <style scoped>
 
-</style> -->
 
 <style module>
 .pageWrapper {

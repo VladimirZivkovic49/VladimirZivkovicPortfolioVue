@@ -1,50 +1,5 @@
 <template>
-   <!-- <section id="about" :class="$style.about">
-    <div :class="$style.container">
-      <h2 :class="$style.title">{{ $t('about.title') }}</h2>
-
-      <div :class="$style.content">
-        <div :class="$style.bio">
-          <p :class="$style.text">{{ $t('about.text1') }}</p>
-          <p :class="$style.text">{{ $t('about.text2') }}</p>
-        </div>
-
-        <div :class="$style.skillsContainer">
-          <h3 :class="$style.skillsTitle">{{ $t('about.skillsTitle') }}</h3>
-          <div :class="$style.skillsGrid">
-            <span v-for="skill in skills" :key="skill" :class="$style.skillBadge">
-              {{ skill }}
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-<!-- <section id="about" :class="$style.about">
-    <div :class="$style.container">
-      <h2 :class="$style.title">{{ $t('about.title') }}</h2>
-
-      <div :class="$style.content">
-        <div :class="$style.imageWrapper">
-          <img :src="profileImg" alt="Vladimir Živković" :class="$style.profileImage" />
-        </div>
-
-        <div :class="$style.bio">
-          <p :class="$style.text">{{ $t('about.text1') }}</p>
-          <p :class="$style.text">{{ $t('about.text2') }}</p>
-
-          <div :class="$style.skillsContainer">
-            <h3 :class="$style.skillsTitle">{{ $t('about.skillsTitle') }}</h3>
-            <div :class="$style.skillsGrid">
-              <span v-for="skill in skills" :key="skill" :class="$style.skillBadge">
-                {{ skill }}
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
+  
 <section id="about" :class="$style.about">
     <div :class="$style.container">
       <h2 :class="$style.title">{{ $t('about.title') }}</h2>
@@ -65,6 +20,7 @@
             <p :class="$style.text">{{ $t('about.text1') }}</p>
             <p :class="$style.text">{{ $t('about.text2') }}</p>
             <p :class="$style.text">{{ $t('about.text3') }}</p>
+            <p :class="$style.text">{{ $t('about.text4') }}</p>
           </div>
 
           <!-- Iskustvo & Obrazovanje -->
