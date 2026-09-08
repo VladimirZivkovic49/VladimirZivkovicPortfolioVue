@@ -196,6 +196,28 @@
         
       }
     ]
+  },
+ "contact": {
+  "title": "Contact Me",
+  "subtitle": "Open for collaborations, projects, and career opportunities. Feel free to reach out!",
+  "labels": {
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone",
+    "location": "Location"
+  },
+  "info": {
+    "name": "Vladimir Živković",
+    "email": "vlaja432@gmail.com",
+    "phone": "+381 63 627029",
+    "location": "Novi Sad, Serbia",
+    "workMode": "(Remote / Hybrid / On-site)"
+  },
+  "socialTitle": "Professional Profiles",
+  "social": {
+   "linkedin": "https://www.linkedin.com/in/%C5%BEivkovi%C4%87-vladimir-7319702b",
+    "github": "https://github.com/VladimirZivkovic49"
   }
+}
  
 }

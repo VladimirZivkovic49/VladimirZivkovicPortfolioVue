@@ -202,7 +202,29 @@
         
       }
     ]
+  },
+ "contact": {
+  "title": "Kontakt",
+  "subtitle": "Otvoren za saradnju, projekte i poslovne prilike. Slobodno me kontaktirajte!",
+  "labels": {
+    "fullName": "Ime i prezime",
+    "email": "Email adresa",
+    "phone": "Telefon",
+    "location": "Lokacija"
+  },
+  "info": {
+    "name": "Vladimir Živković",
+    "email": "vlaja432@gmail.com",
+    "phone": "+381 63 627029",
+    "location": "Novi Sad, Srbija",
+    "workMode": "(Remote / Hybrid / On-site)"
+  },
+  "socialTitle": "Profesionalni profili",
+  "social": {
+   "linkedin": "https://www.linkedin.com/in/%C5%BEivkovi%C4%87-vladimir-7319702b",
+    "github": "https://github.com/VladimirZivkovic49"
   }
+}
   
   
 }
