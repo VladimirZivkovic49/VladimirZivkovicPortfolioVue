@@ -157,7 +157,8 @@
         "title": "Fan Efficiency Tool",
         "shortDescription": "App for digitizing fan efficiency charts, data analysis, and PDF report generation.",
         "fullDescription": "Advanced expansion of a self-built tool. Features RBAC authentication, Cloudinary integration for image processing during chart digitization, PDF generation, and parallel WPF + React implementations.",
-        "technologies": ["C#", "WPF (MVVM)", "React (Hooks)", "Cloudinary API", "PDF Gen", "SQLite"]
+       "technologies": ["C#",".NET 9 Web API", "WPF (MVVM)", "React (Hooks)", "Cloudinary API", "PDF Gen","SQL Server", "SQLite"]
+       
         
       },
       {

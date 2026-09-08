@@ -161,7 +161,7 @@
         "title": "Fan Efficiency Tool",
         "shortDescription": "Aplikacija za digitalizaciju dijagrama, analizu efikasnosti ventilatora i generisanje PDF izveštaja.",
         "fullDescription": "Napredna optimizacija i nadogradnja samostalnog projekta. Sadrži kompletnu autentifikaciju sa RBAC (Role-Based Access Control) logikom, Cloudinary integraciju za skladištenje i obradu slika pri digitalizaciji dijagrama, generisanje PDF izveštaja i paralelnu WPF i React implementaciju.",
-        "technologies": ["C#", "WPF (MVVM)", "React (Hooks)", "Cloudinary API", "PDF Gen", "SQLite"]
+        "technologies": ["C#",".NET 9 Web API", "WPF (MVVM)", "React (Hooks)", "Cloudinary API", "PDF Gen","SQL Server", "SQLite"]
        
       },
       {
