@@ -80,9 +80,15 @@
     "title": "Izabrani projekti",
     "subtitle": "Pregled produkcionih, inženjerskih i ličnih projekata",
     "filterAll": "Svi projekti",
+ "backBtn": "Nazad na projekte",
+  "overview": "Opis projekta",
+  "technologiesTitle": "Korišćene tehnologije",
+
     "categories": {
       "web": "Web & Backend",
       "desktop": "Desktop aplikacije"
+
+     
     },
     "detailsBtn": "Pogledaj detalje",
     "modalClose": "Zatvori",

@@ -79,9 +79,14 @@
     "title": "Selected Projects",
     "subtitle": "Overview of production, engineering, and personal projects",
     "filterAll": "All Projects",
+    
+      "backBtn": "Back to Projects",
+  "overview": "Project Overview",
+  "technologiesTitle": "Technologies Used",
     "categories": {
       "web": "Web & Backend",
       "desktop": "Desktop Apps"
+
     },
     "detailsBtn": "View Details",
     "modalClose": "Close",

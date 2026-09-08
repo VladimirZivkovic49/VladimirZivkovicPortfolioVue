@@ -1,8 +1,5 @@
 <template>
-    <!-- <div>
-<h2>Project Section</h2>
-    </div> -->
-<section id="projects" :class="$style.projects">
+  <section id="projects" :class="$style.projects">
     <div :class="$style.container">
       <h2 :class="$style.title">{{ $t('projects.title') }}</h2>
       <p :class="$style.subtitle">{{ $t('projects.subtitle') }}</p>
@@ -45,8 +42,7 @@
           <!-- Body kartice (Slika + Opis) -->
           <div :class="$style.cardBody">
             <div :class="$style.imageWrapper">
-              <!-- <img :src="project.image" :alt="project.title" :class="$style.projectImg" /> -->
-            <img :src="getImageUrl(project.image)" :alt="project.title" :class="$style.projectImg" />
+              <img :src="getImageUrl(project.image)" :alt="project.title" :class="$style.projectImg" />
             </div>
             <p :class="$style.description">{{ project.shortDescription }}</p>
             
@@ -57,104 +53,31 @@
             </div>
           </div>
 
-          <!-- Footer kartice sa dugmetom -->
+          <!-- Footer kartice sa ruter linkom umesto modala -->
           <div :class="$style.cardFooter">
-            <button @click="openModal(project)" :class="$style.detailsBtn">
+            <router-link 
+              :to="{ name: 'project-detail', params: { id: project.id } }" 
+              :class="$style.detailsBtn"
+            >
               {{ $t('projects.detailsBtn') }}
-            </button>
+            </router-link>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal za detalje projekta -->
-    <div v-if="selectedProject" :class="$style.modalOverlay" @click.self="closeModal">
-      <div :class="$style.modalContent">
-        <button :class="$style.closeBtn" @click="closeModal">&times;</button>
-        
-        <span :class="$style.badge">{{ selectedProject.type }}</span>
-        <h2 :class="$style.modalTitle">{{ selectedProject.title }}</h2>
-        
-        <!-- <img :src="selectedProject.image" :alt="selectedProject.title" :class="$style.modalImg" /> -->
-        <img :src="getImageUrl(selectedProject.image)" :alt="selectedProject.title" :class="$style.modalImg" />
-        <p :class="$style.modalDescription">{{ selectedProject.fullDescription }}</p>
-        
-        <div :class="$style.modalTech">
-          <strong>Tehnologije:</strong>
-          <div :class="$style.tags">
-            <span v-for="(tech, idx) in selectedProject.technologies" :key="idx" :class="$style.tag">
-              {{ tech }}
-            </span>
-          </div>
-        </div>
-
-        <div :class="$style.modalActions">
-          <a v-if="selectedProject.link" :href="selectedProject.link" target="_blank" rel="noopener" :class="$style.linkBtn">
-            {{ $t('projects.links.live') }} ↗
-          </a>
-          <a v-if="selectedProject.github" :href="selectedProject.github" target="_blank" rel="noopener" :class="[$style.linkBtn, $style.githubBtn]">
-            {{ $t('projects.links.code') }} ↗
-          </a>
-          <button @click="closeModal" :class="$style.secondaryBtn">
-            {{ $t('projects.modalClose') }}
-          </button>
         </div>
       </div>
     </div>
   </section>
-
-
 </template>
-
-<!-- <script>
-    export default {
-        name:'ProjectSectionComponent',
-        setup() {
-    const { tm } = useI18n()
-    const activeFilter = ref('all')
-    const selectedProject = ref(null)
-
-    const projects = computed(() => tm('projects.items') || [])
-
-    const filteredProjects = computed(() => {
-      if (activeFilter.value === 'all') {
-        return projects.value
-      }
-      return projects.value.filter(p => p.category === activeFilter.value)
-    })
-
-    const openModal = (project) => {
-      selectedProject.value = project
-    }
-
-    const closeModal = () => {
-      selectedProject.value = null
-    }
-
-    return {
-      activeFilter,
-      filteredProjects,
-      selectedProject,
-      openModal,
-      closeModal
-    }
-  }
-        
-    }
-</script> -->
 
 <script>
 export default {
   name: 'ProjectsSectionComponent',
   data() {
     return {
-      activeFilter: 'all',
-      selectedProject: null
+      activeFilter: 'all'
     }
   },
   computed: {
     projects() {
-      // Bezbedno preuzimanje niza projekata iz i18n prevoda
       return this.$tm('projects.items') || []
     },
     filteredProjects() {
@@ -165,29 +88,14 @@ export default {
     }
   },
   methods: {
-   
-   getImageUrl(imageName) {
+    getImageUrl(imageName) {
       if (!imageName) return ''
-      // Dinamičko preuzimanje slike iz src/assets/ foldera
       return new URL(`../../assets/${imageName}`, import.meta.url).href
-    },
-   
-    openModal(project) {
-      this.selectedProject = project
-    },
-
-
-
-    closeModal() {
-      this.selectedProject = null
     }
   }
 }
 </script>
 
-<!-- <style scoped>
-
-</style> -->
 <style module>
 .projects {
   padding: 3.5rem 1.5rem;
@@ -348,120 +256,21 @@ export default {
 }
 
 .detailsBtn {
+  display: block;
+  text-align: center;
   width: 100%;
   background: #2c3e50;
   color: #ffffff;
-  border: none;
   padding: 0.6rem 0;
   border-radius: 6px;
   font-weight: 600;
   font-size: 0.9rem;
-  cursor: pointer;
+  text-decoration: none;
   transition: background 0.2s ease;
 }
 
 .detailsBtn:hover {
   background: #42b883;
-}
-
-/* Modal */
-.modalOverlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.6);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-  padding: 1rem;
-}
-
-.modalContent {
-  background: #ffffff;
-  padding: 2rem;
-  border-radius: 12px;
-  max-width: 600px;
-  width: 100%;
-  max-height: 90vh;
-  overflow-y: auto;
-  position: relative;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
-}
-
-.closeBtn {
-  position: absolute;
-  top: 1rem;
-  right: 1.2rem;
-  background: none;
-  border: none;
-  font-size: 1.8rem;
-  color: #64748b;
-  cursor: pointer;
-}
-
-.modalTitle {
-  font-size: 1.4rem;
-  color: #2c3e50;
-  margin: 0.5rem 0 1rem 0;
-}
-
-.modalImg {
-  width: 100%;
-  height: 220px;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 1rem;
-}
-
-.modalDescription {
-  font-size: 0.95rem;
-  color: #334155;
-  line-height: 1.5;
-  margin-bottom: 1.2rem;
-}
-
-.modalTech {
-  margin-bottom: 1.5rem;
-}
-
-.modalTech strong {
-  display: block;
-  font-size: 0.85rem;
-  color: #64748b;
-  margin-bottom: 0.4rem;
-}
-
-.modalActions {
-  display: flex;
-  gap: 0.8rem;
-  flex-wrap: wrap;
-}
-
-.linkBtn {
-  background: #42b883;
-  color: #ffffff;
-  padding: 0.6rem 1.2rem;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 0.9rem;
-}
-
-.githubBtn {
-  background: #24292e;
-}
-
-.secondaryBtn {
-  background: #e2e8f0;
-  color: #475569;
-  border: none;
-  padding: 0.6rem 1.2rem;
-  border-radius: 6px;
-  cursor: pointer;
-  font-weight: 600;
 }
 
 @media (max-width: 640px) {
